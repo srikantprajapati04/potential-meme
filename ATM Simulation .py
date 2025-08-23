@@ -1,4 +1,4 @@
-import sqlite3
+ import sqlite3
 
 # Database setup
 def setup_database():
@@ -194,4 +194,5 @@ def atm_simulation():
             print("Invalid option. Please try again.")
 
 if __name__ == "__main__":
+
     atm_simulation()
